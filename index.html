@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/lightslider.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
+    <script src="./assets/js/JQuery.js"></script>
+    <script src="./assets/js/lightslider.js"></script>
+    <link rel="shortcut icon" href="./assets/images/logo.jpg">
+    <title>Hamy Clothing</title>
+    <!-- using FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <!-- social link and phone number -->
+        <div class="social-call">
+            <!-- social links -->
+            <div class="social">
+                <a href="https://www.facebook.com/Hamy-Clothing-100417295227968"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- phone number -->
+            <div class="phone">
+                <span>Call: 0766578920</span>
+            </div>
+        </div>
+        <!--menu bar  -->
+        <div class="navigation">
+            <!-- logo -->
+            <a href="#" class="logo">
+                <img src="./assets/images/logonew.png">
+            </a>
+            <!-- menu icon -->
+            <div class="toggle"></div>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Đồ Nam</a>
+                    <!-- sale lable -->
+                    <span class="sale-lable">Sale</span>
+                </li>
+                <li><a href="#">Đồ Nữ</a></li>
+                <li><a href="#">Trẻ Em</a></li>
+                <li><a href="#">Cửa Hàng</a></li>
+            </ul>
+            <!-- right menu -->
+            <div class="right-menu">
+                <!-- search -->
+                <a href="javascript:void(0);" class="search">
+                    <i class="fas fa-search"></i>
+                </a>
+                <!-- user -->
+                <a href="javascript:void(0);" class="user">
+                    <i class="fas fa-user"></i>
+                </a>
+                <!-- cart icon -->
+                <a href="#">
+                    <i class="fas fa-shopping-cart">
+                    <!-- number of product in cart -->
+                    <span class="num-cart-product">0</span>
+                </i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- search bar -->
+    <div class="search-bar">
+        <!-- search input -->
+        <div class="search-input">
+            <!-- input -->
+            <input type="text" placeholder="Tìm Kiếm" />
+            <!-- cancel btn -->
+            <a href="javascript:void(0);" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </div>
+    <!-- login and sign up form -->
+    <div class="form">
+        <!-- login -->
+        <div class="login-form">
+            <!-- cancel btn -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!-- heading -->
+            <strong>Đăng Nhập</strong>
+            <!-- input -->
+            <form>
+                <input type="email" placeholder="Example@gmail.com" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <!-- submit btn -->
+                <input type="submit" value="Đăng Nhập">
+            </form>
+            <!-- forget and sign up-->
+            <div class="form-btns">
+                <a href="#" class="forget">Quên Mật Khẩu?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Tạo Tài Khoản</a>
+            </div>
+        </div>
+
+
+        <!-- Sign up -->
+        <div class="sign-up-form">
+            <!-- cancel btn -->
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <!-- heading -->
+            <strong>Đăng Kí</strong>
+            <!-- input -->
+            <form>
+                <input type="text" placeholder="Họ Và Tên" name="fullname" required>
+                <input type="email" placeholder="Example@gmail.com" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <!-- submit btn -->
+                <input type="submit" value="Đăng Kí">
+            </form>
+            <!-- forget and sign up-->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">Bạn đã có tài khoản?</a>
+            </div>
+        </div>
+    </div>
+    <!-- Full slider -->
+    <ul id="adaptive" class="cs-hidden">
+        <!-- box 1 -->
+        <li class="item-a">
+            <!-- box -->
+            <div class="full-slider-box f-slide-1">
+                <!-- slider text container -->
+                <div class="slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Ưu đãi có hạn</span>
+                        <strong>Giảm 30% </br> với <font>mã khuyến mãi</font></strong>
+                        <a href="#" class="f-slider-btn">Mua Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <!-- box 2 -->
+        <li class="item-a">
+            <!-- box -->
+            <div class="full-slider-box f-slide-2">
+                <!-- slider text container -->
+                <div class="slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Ưu đãi có hạn</span>
+                        <strong>Giảm 30% </br> với <font>mã khuyến mãi</font></strong>
+                        <a href="#" class="f-slider-btn">Mua Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <!-- box 3 -->
+        <li class="item-a">
+            <!-- box -->
+            <div class="full-slider-box f-slide-3">
+                <!-- slider text container -->
+                <div class="slider-text-container">
+                    <div class="f-slider-text">
+                        <span>Ưu đãi có hạn</span>
+                        <strong>Giảm 30% </br> với <font>mã khuyến mãi</font></strong>
+                        <a href="#" class="f-slider-btn">Mua Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!-- featured categories -->
+    <div class="feature-heading">
+        <h2>Sản Phẩm</h2>
+    </div>
+    <ul id="autoWidth" class="cs-hidden">
+        <!-- 1 -->
+        <li class="item">
+            <!-- feature box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="./assets/images/feature_1.jpg" />
+                </a>
+            </div>
+            <!-- text -->
+            <span>T-Shirt</span>
+        </li>
+        <!-- 2 -->
+        <li class="item">
+            <!-- feature box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="./assets/images/feature_2.jpg" />
+                </a>
+            </div>
+            <!-- text -->
+            <span>T-Shirt</span>
+        </li>
+        <!-- 3 -->
+        <li class="item">
+            <!-- feature box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="./assets/images/feature_3.jpg" />
+                </a>
+            </div>
+            <!-- text -->
+            <span>T-Shirt</span>
+        </li>
+        <!-- 4 -->
+        <li class="item">
+            <!-- feature box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="./assets/images/feature_4.jpg" />
+                </a>
+            </div>
+            <!-- text -->
+            <span>T-Shirt</span>
+        </li>
+        <!-- 5 -->
+        <li class="item">
+            <!-- feature box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="./assets/images/feature_5.jpg" />
+                </a>
+            </div>
+            <!-- text -->
+            <span>T-Shirt</span>
+        </li>
+        <!-- 6 -->
+        <li class="item">
+            <!-- feature box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="./assets/images/feature_6.jpg" />
+                </a>
+            </div>
+            <!-- text -->
+            <span>T-Shirt</span>
+        </li>
+    </ul>
+    <!-- new arrival -->
+    <section class="new-arrival">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>Hàng Mới</strong>
+            <p>Chúng tôi cung cấp cho bạn những bộ trang phục mới</p>
+        </div>
+        <!-- product container -->
+        <div class="product-container">
+            <!-- product box 1 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-1.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ DL94</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 2 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-2.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ NN10</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 3 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-3.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ DL109</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 4 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-4.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 5 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-5.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 6 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-6.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 7 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-7.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ CB107</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 8 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-8.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ DL110</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- sale -->
+    <section class="sale">
+        <!-- sale box 1 -->
+        <div class="sale-box">
+            <!-- img -->
+            <img src="./assets/images/sale-1.jpg" />
+            <!-- text -->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Túi Xách</strong>
+                    <span>Sale Off 25%</span>
+                </div>
+            </a>
+        </div>
+        <!-- sale box 2 -->
+        <div class="sale-box">
+            <!-- img -->
+            <img src="./assets/images/sale-2.jpg" />
+            <!-- text -->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Túi Xách</strong>
+                    <span>Sale Off 25%</span>
+                </div>
+            </a>
+        </div>
+        <!-- sale box 3 -->
+        <div class="sale-box">
+            <!-- img -->
+            <img src="./assets/images/sale-3.jpg" />
+            <!-- text -->
+            <a href="#">
+                <div class="sale-text">
+                    <strong>Túi Xách</strong>
+                    <span>Sale Off 25%</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- new arrival -->
+    <section class="new-arrival">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>Hàng Bán Chạy</strong>
+            <p>Chúng tôi cung cấp cho bạn những bộ trang phục mới</p>
+        </div>
+        <!-- product container -->
+        <div class="product-container">
+            <!-- product box 1 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-1.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ DL94</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 2 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-2.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ NN10</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 3 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-3.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ DL109</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+
+            <!-- product box 4 -->
+            <div class="product-box">
+                <!-- img -->
+                <div class="product-img">
+                    <!-- add cart -->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="./assets/images/p-4.jpg" />
+                </div>
+                <!-- details -->
+                <div class="product-details">
+                    <a href="#" class="p-name">Đồ bộ nữ</a>
+                    <span class="p-price">100.000 VNĐ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner -->
+    <!-- box -->
+    <div class="banner-box f-slide-3">
+        <!-- slider text container -->
+        <div class="banner-text-container">
+            <div class="banner-text">
+                <span>Ưu đãi có hạn</span>
+                <strong>Giảm 30% </br> với <font>mã khuyến mãi</font></strong>
+                <a href="#" class="banner-btn">Mua Ngay</a>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <secion class="services">
+        <!-- services box 1 -->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Giao Hàng Tận Nơi</span>
+            <p>Giao Hàng Trên Toàn Quốc</p>
+        </div>
+        <!-- services box 2 -->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Hỗ Trợ 24/7</span>
+            <p>Chúng tôi sẽ hỗ trợ khi bạn gặp vấn đề</p>
+        </div>
+        <!-- services box 3 -->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>Hàng 1 đổi 1</span>
+            <p>Hàng khi đổi trả phải còn tem và nhãn mác đầy đủ</p>
+        </div>
+    </secion>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>CHĂM SÓC KHÁCH HÀNG</h4>
+                    <ul>
+                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                        <li><a href="#">Shop của Hamy Clothing</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Liên kết</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>HỖ TRỢ</h4>
+                    <ul>
+                        <li><a href="#">Hỏi & Đáp</li>
+                        <li><a href="#">Giao hàng</a></li>
+                        <li><a href="#">Đổi trả</a></li>
+                        <li><a href="#">Tình trạng sản phẩm</a></li>
+                        <li><a href="#">Hình thức thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SẢN PHẨM HIỆN CÓ</h4>
+                    <ul>
+                        <li><a href="#">Đồ bộ</a></li>
+                        <li><a href="#">Trang phục</a></li>
+                        <li><a href="#">Áo quần</a></li>
+                        <li><a href="#">Các loại áo quần</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>THEO DÕI CHÚNG TÔi</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Hamy-Clothing-100417295227968"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- script -->
+    <script type="text/javascript">
+        // For Search Bar
+        $(document).on('click', '.search', function() {
+            $('.search-bar').addClass('search-bar-active')
+        });
+        $(document).on('click', '.search-cancel', function() {
+            $('.search-bar').removeClass('search-bar-active')
+        });
+        // login and sign up form
+        $(document).on('click', '.user,.already-account', function() {
+            $('.form').addClass('login-active').removeClass('sign-up-active')
+        });
+        $(document).on('click', '.sign-up-btn', function() {
+            $('.form').addClass('sign-up-active').removeClass('login-active')
+        });
+        $(document).on('click', '.form-cancel', function() {
+            $('.form').removeClass('login-active').removeClass('sign-up-active')
+        });
+        // full slider script
+        $(document).ready(function() {
+            $('#adaptive').lightSlider({
+                adaptiveHeight: true,
+                auto: true,
+                item: 1,
+                slideMargin: 0,
+                loop: true
+            });
+        });
+        // Feature slider
+        $(document).ready(function() {
+            $('#autoWidth').lightSlider({
+                autoWidth: true,
+                loop: true,
+                onSliderLoad: function() {
+                    $('#autoWidth').removeClass('cS-hidden');
+                }
+            });
+        });
+        // for fix menu when scroll
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.navigation').addClass('fix-nav');
+            } else {
+                $('.navigation').removeClass('fix-nav');
+            }
+        });
+        // for responsive menu
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('.toggle').toggleClass('active')
+                $('.navigation').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+
+</html>
