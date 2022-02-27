@@ -24,6 +24,15 @@ nav {
     z-index: 100;
 }
 
+#preloader {
+    background: #ffffff url(../images/loader.gif) no-repeat center center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 .social-call {
     height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -668,9 +677,20 @@ nav {
     display: none;
 }
 
+
+/* .time-loading {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
+} */
+
 @media(max-width:1010px) {
     nav {
         position: relative;
+    }
+    #preloader {
+        width: 100%;
     }
     .navigation {
         height: 80px;
@@ -756,6 +776,12 @@ nav {
     .navigation {
         padding: 10px;
     }
+    /* #preloader {
+        display: none;
+    } */
+    /* .time-loading {
+        display: none;
+    } */
     .f-slider-text strong,
     .banner-text strong {
         font-size: 1.2rem;
